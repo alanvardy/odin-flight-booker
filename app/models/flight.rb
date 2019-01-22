@@ -1,3 +1,3 @@
 class Flight < ApplicationRecord
-  belongs_to :airport, polymorphic: true
+  belongs_to :airport
 end
